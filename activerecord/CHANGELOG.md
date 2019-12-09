@@ -1,9 +1,17 @@
+<<<<<<< HEAD
 ## Rails 6.0.2.1 (December 18, 2019) ##
 
 *   No changes.
 
 
 ## Rails 6.0.2 (December 13, 2019) ##
+=======
+*   Retain explicit selections on the base model after applying `includes` and `joins`.
+
+    Resolves #34889.
+
+    *Patrick Rebsch*
+>>>>>>> b6a48421a2... Merge pull request #35210 from pjrebsch/fix-joins-include-select
 
 *   Share the same connection pool for primary and replica databases in the
     transactional tests for the same database.
